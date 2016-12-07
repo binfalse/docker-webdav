@@ -24,13 +24,13 @@ Thus, a commandline may look like this:
         -v default.conf:/etc/apache2/sites-available/000-default.conf \
         -v /path/to/dav-files:/dav/share:ro \
         -v /path/to/.htpasswd:/dav/.htpassword:ro \
-        -p 8888:80 binfalse/docker-webdav
+        -p 8888:80 binfalse/webdav
 
 If you're using Docker-Compose:
 
     webdav:
         restart: always
-        image: binfalse/docker-webdav
+        image: binfalse/webdav
         volumes:
             - /path/to/dav-files:/dav/share
             - /path/to/.htpasswd:/dav/.htpassword:ro
