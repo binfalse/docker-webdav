@@ -6,7 +6,7 @@ This [Dockerfile](Dockerfile) compiles to an image that
 * has the latest [Apache webserver](http://httpd.apache.org/) installed
 * has the [Apache WebDAV modules](https://httpd.apache.org/docs/2.2/mod/mod_dav.html) enabled
 
-It is available through the Docker Hub at [binfalse/docker-webdav](https://hub.docker.com/r/binfalse/docker-webdav/).
+It is available through the Docker Hub at [binfalse/webdav](https://hub.docker.com/r/binfalse/webdav/).
 
 ## Running
 
